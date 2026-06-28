@@ -1,28 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zach Lasky</title>
-    <style>
-      body {
-        margin: 0;
-        background: #f5f5f5;
-        font-family: sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      iframe {
-        width: 90%;
-        height: 90vh;
-        border: none;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-    </style>
+    <title>Zach Lasky — About</title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <iframe src="resume.pdf"></iframe>
+    <div class="container">
+      <header>
+        <h1><a href="index.html">Zach Lasky</a></h1>
+        <nav>
+          <a href="index.html" class="active">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="about">
+          <div class="photo">
+            <img src="assets/avatar.jpg" alt="Zach Lasky" />
+          </div>
+          <div class="bio">
+            <h2>Hi, I'm Zach.</h2>
+            <p>
+              I'm a full stack software engineer with a strong frontend focus. I have been building
+              software professionally since 2019, and over that time I have shipped scalable, high
+              performance web applications as well as the internal platforms that teams rely on
+              every day.
+            </p>
+            <p>
+              Most of my work lives where thoughtful engineering meets good user experience. I
+              design modern frontend architectures, tune interfaces for both performance and
+              usability, and take real pleasure in refactoring legacy systems into something clean
+              and maintainable. I care about the details that users never see as much as the ones
+              they do, because both are what make a product feel fast, reliable, and easy to use.
+            </p>
+            <p>
+              Beyond writing code, I enjoy leading initiatives that span multiple teams, aligning
+              people around a shared technical direction, and turning complex requirements into
+              seamless, efficient, and visually engaging web experiences. I like working on the hard
+              problems that sit between disciplines, where the right solution depends on
+              understanding the product, the people, and the system all at once.
+            </p>
+            <p>
+              Lately a lot of my work centers on weaving AI into the products I build. I like
+              finding the places where a language model genuinely improves the experience, whether
+              that means turning messy data into clear insights, automating tedious workflows, or
+              adding features that would not have been practical before. I treat AI as another tool
+              in the stack, integrating it thoughtfully so it feels reliable and useful rather than
+              bolted on.
+            </p>
+            <p>
+              When I take on a project, my goal is always the same: software that is built to last,
+              pleasant to work in, and genuinely useful to the people who depend on it.
+            </p>
+            <p>
+              You can find out more about my work and connect with me on
+              <a href="https://www.linkedin.com/in/zach-lasky" target="_blank" rel="noopener"
+                >LinkedIn</a
+              >
+              and
+              <a href="https://github.com/zachlasky" target="_blank" rel="noopener">GitHub</a>.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
